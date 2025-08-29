@@ -1,16 +1,22 @@
 
-## Bajaj Finserv Health Track 3rd round task
+## Bajaj Finserv Health Limited
 ### Problem statement
-Build and host a REST API with one endpoint that accepts requests with both GET and POST methods.
-POST method endpoint takes in the request (JSON) and returns the following:
+Build and host a REST API (Method: POST) that takes in an array and returns the
+following:
 1. Status
 2. User ID
-3. College Email ID
+3. Email ID
 4. College Roll Number
-5. Array for numbers
-6. Array for alphabets
-7. Highest Alphabet in the input array of alphabets
-GET method endpoint doesn’t take any user input, it just returns an operation_code
+5. Array for even numbers
+6. Array for odd numbers
+7. Array for alphabets, converted to uppercase
+8. Array for special characters
+9. Sum of numbers
+10. Concatenation of all alphabetical characters present in the input in the reverse
+order in alternating caps
 
-### Deployed site
-https://bfhl-kjgc.onrender.com/bfhl
+### Preferred Tech Stack
+Node.js
+
+### Hosting
+Vercel 
